@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+
+main {
+    background-color: inherit;
+}
+
+body {
+    background-color: rgb(54, 54, 54);
+    color:whitesmoke;
+    font-size:1vw;  
+    font-family: 'Open Sans', sans-serif;
+    margin: 3% 1.5%;
+}
+
+h1, h2, h3 {
+    font-weight: 300;
+}
+
+header {
+    font-size:200%;
+    padding-bottom: 1vw;
+    border-bottom: 1px rgb(73, 102, 156) solid;
+}
+
+footer {
+    border-top: 1px rgb(73, 102, 156) solid;
+    padding-top:0.2vw;
+    margin-top:10vw;
+    width: 100%;
+    bottom:1vw;
+}
+
