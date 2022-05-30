@@ -81,6 +81,7 @@ footer {
     }
     .subpage img {
         float:right;
+        width:30%;
         padding-left:1vw;
         padding-bottom: 1vw;
     }
