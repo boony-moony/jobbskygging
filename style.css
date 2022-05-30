@@ -8,7 +8,7 @@ main {
 body {
     background-color: rgb(54, 54, 54);
     color:whitesmoke;
-    font-size:2vw;  
+    font-size:5vw;  
     font-family: 'Open Sans', sans-serif;
     margin: 3% 3vw;
 }
@@ -32,10 +32,20 @@ a:hover {
 }
 
 .subpage img {
-    float:right;
-    padding-left:1vw;
+    float:none;
+    width:100%;
     padding-bottom: 1vw;
 }
+
+#hoveddel>* {
+    margin-bottom:10vw;
+    padding:1vw;
+    background-color: rgba(81, 56, 24, 0.476);
+}
+#hoveddel h1 {
+    margin:0;
+}
+
 
 footer {
     clear:both;
@@ -46,3 +56,33 @@ footer {
     bottom:1vw;
 }
 
+
+@media only screen and (min-width: 600px) {
+    body {
+        font-size:2vw;
+    }
+    #hoveddel {
+        display:grid;
+        gap:3vw;
+        grid-template-columns: auto auto ;
+    }
+    #hoveddel>* {
+        margin-bottom:3vw;
+        padding-bottom:3vw;
+        padding:1vw;
+        background-color: rgba(81, 56, 24, 0.476);
+    }
+    #hoveddel img {
+        float:right;
+        width:30%
+    }
+    #hoveddel h1 {
+        margin:0;
+    }
+    .subpage img {
+        float:right;
+        padding-left:1vw;
+        padding-bottom: 1vw;
+    }
+    
+}
